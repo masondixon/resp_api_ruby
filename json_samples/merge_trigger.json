@@ -1,0 +1,44 @@
+{
+    "recordData": {
+        "records": [
+            {
+                "fieldValues": [
+                    "your_email@email.com",
+                    "San Francisco"
+                ]
+            }
+        ],
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CITY_"
+        ]
+    },
+    "mergeRule": {
+        "htmlValue": "H",
+        "matchColumnName1": "EMAIL_ADDRESS_",
+        "matchColumnName2": null,
+        "matchColumnName3": null,
+        "optoutValue": "O",
+        "insertOnNoMatch": true,
+        "defaultPermissionStatus": "OPTIN",
+        "rejectRecordIfChannelEmpty": "E",
+        "optinValue": "I",
+        "updateOnMatch": "REPLACE_ALL",
+        "textValue": "T",
+        "matchOperator": "NONE"
+    },
+    "triggerData": [
+        {
+            "optionalData": [
+                {
+                    "name": "FIRST_NAME",
+                    "value": "jim_1"
+                },
+                {
+                    "name": "LAST_NAME",
+                    "value": "smith_1"
+                }
+            ]
+        }
+    ]
+}
