@@ -30,7 +30,6 @@ class RI_REST
       
       @authToken = json_response['authToken']
       @endPoint  = json_response['endPoint']
-      @loggedIn  = true
       
     rescue RestClient::ExceptionWithResponse => e
       puts 'login initialize Exception : ' + e.response
